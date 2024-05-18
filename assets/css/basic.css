@@ -19,17 +19,19 @@ body{
 .continer {
     width: calc(100% - 120px);
     margin: auto;
+    
 
 }
 .row {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 a {
     text-decoration: none;
-    
+   
 }
 
 ul {
